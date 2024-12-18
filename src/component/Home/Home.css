@@ -1,0 +1,25 @@
+/* .home {
+  /* display: flex; *
+
+  overflow: hidden;
+} */
+
+.home-image {
+  width: 100%;
+  /* z-index: 100000000%; */
+  margin-top: 58px;
+  margin-bottom: -70px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+/* .container .row-madia {
+  background-color: red;
+} */
+
+@media screen and (max-width: 1025px) {
+  .container .row-madia {
+    background-color: red;
+    /* width: 48%;
+    height: 10% !important; */
+  }
+}
